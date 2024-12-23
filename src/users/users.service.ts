@@ -34,9 +34,7 @@ export class UsersService {
 
       await this.userRepository.save(user);
 
-      return {
-        message: 'Usuario creado correctamente',
-      };
+      return user;
     } catch (error) {
       this.handleDBErrors(error);
     }

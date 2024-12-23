@@ -14,7 +14,12 @@ export class SeedService {
 
   async runSeed() {
     try {
-      await this.insertUsers()
+      // Vaciar la tabla de usuarios
+      await this.userRepository.clear();
+
+      // Insertar nuevos usuarios
+      await this.insertUsers();
+
       return `Seed ejecutado correctamente`;
     } catch (error) {
       throw new InternalServerErrorException(`Error al ejecutar el seed: ${error.message}`);
