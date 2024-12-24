@@ -30,9 +30,9 @@
 Aquí está la sección corregida, incluyendo que el seed se ejecuta a través de un endpoint:
 
 6. **Ejecutar el seed para usuarios iniciales**  
-   Realiza una petición `POST` al siguiente endpoint usando Postman:  
+   Realiza una petición `GET` al siguiente endpoint usando Postman:  
    ```
-   POST http://localhost:3000/api/seed
+   GET http://localhost:3000/api/seed
    ```
 
 7. **Acceder a la documentación de la API**  
