@@ -35,6 +35,19 @@ Aquí está la sección corregida, incluyendo que el seed se ejecuta a través d
    GET http://localhost:3000/api/seed
    ```
 
+   Puede realizar pruebas con los siguientes usuarios
+
+   ```
+   Email: ejemplo1@gmail.com
+   password: Clave123
+   ```
+   ó
+
+    ```
+   Email: ejemplo2@gmail.com
+   password: Clave123
+   ```
+
 7. **Acceder a la documentación de la API**  
    Visita: [http://localhost:3000/api](http://localhost:3000/api)
 
